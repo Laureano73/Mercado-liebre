@@ -1,1 +1,40 @@
-body
+body{
+    background-image: url('https://images3.alphacoders.com/621/621682.jpg') ;
+    background-size: cover;
+}
+
+h1{
+    background-color: rgba(0,0,0,0.8);
+    background-size: contain;
+    color:blue;
+    text-align: center;
+    text-shadow: 10px 5px 20px black;
+}
+
+h2{
+    background-color: aqua;
+    background-size: contain;
+    color: blueviolet;
+    opacity: 0,4;
+    text-align: center;
+    text-shadow: 10px 5px 20px black;
+}
+
+span {
+    display: inline;
+    background-color: blue;
+}
+
+#caja{
+    background-color: aqua;
+    width: 30rem;
+    height: 20rem;
+    font-size: 3rem;
+    overflow: auto;
+    padding: 1.2rem 1.5rem 1.8rem 2.1rem;
+    border: solid 1.5rem violet;
+    margin: 1.2rem;
+}
+
+
+

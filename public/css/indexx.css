@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /*1 REM vale 10px*/
+}
+
+body {
+    background-color: pink;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor01{
+    width: 90vw;
+    padding: 2rem;
+    background-color: salmon;
+    font-size: 1rem;
+}
+
+.contenedor02{
+    width: 50vw;
+    padding: 2rem;
+    background-color: saddlebrown;
+    font-size: 1rem;
+}
+
+@media (min-width: 576px){
+    body{
+        background-color: yellow;
+    }
+    .contenedor01{
+        color: blueviolet;
+    }
+    .contenedor02{
+        color: blueviolet;
+    }
+    /*p {
+        display: none;
+    } sirve para ocultar un elemento dada una viewport especificada*/
+}
+
+@media (min-width: 992px){
+    .contenedor01, .contenedor02{
+        border: aqua dashed 2rem;
+    }
+}
+    @media (min-width: 1200px){
+    .contenedor01, .contenedor02{
+        max-width: 1100px;
+    }
+
+}
